@@ -97,33 +97,6 @@ npm run dev
 - **Response:** `"404 - Not Found"`
 - **Example:** `http://localhost:3000/nonexistent`
 
-## Testing
-
-Run the test suite:
-
-```bash
-npm test
-```
-
-The test suite includes:
-
-- **3+ Normal Test Cases:** Testing standard functionality
-- **3+ Edge Test Cases:** Testing boundary conditions and special scenarios
-- **Conditional Routing Tests:** Verifying random behavior
-
-### Test Coverage
-
-The test suite covers:
-
-1. ✅ Basic route responses
-2. ✅ Dynamic parameter handling
-3. ✅ Query string processing
-4. ✅ Regular expression matching
-5. ✅ 404 error handling
-6. ✅ Special characters in URLs
-7. ✅ URL encoding
-8. ✅ Empty query strings
-9. ✅ Conditional routing randomness
 
 ## Project Structure
 
@@ -135,56 +108,6 @@ express-web-server/
 └── README.md          # Documentation
 ```
 
-## Environment Variables
-
-- `PORT`: Server port (default: 3000)
-
-Example:
-
-```bash
-PORT=5000 npm start
-```
-
-## Manual Testing Examples
-
-Using curl:
-
-```bash
-# Test root path
-curl http://localhost:3000/
-
-# Test about page
-curl http://localhost:3000/about
-
-# Test dynamic route
-curl http://localhost:3000/user/alice
-
-# Test query strings
-curl "http://localhost:3000/get?name=test&id=123"
-
-# Test conditional routing (try multiple times)
-curl http://localhost:3000/foo
-
-# Test regular expression routes
-curl http://localhost:3000/user
-curl http://localhost:3000/username
-
-# Test 404
-curl http://localhost:3000/notfound
-```
-
-Using a browser:
-
-- Navigate to `http://localhost:3000/`
-- Try different routes in the address bar
-- Watch the console for query parameter logs
-
-## Technologies Used
-
-- **Express.js** - Web framework
-- **Node.js** - Runtime environment
-- **Jest** - Testing framework
-- **Supertest** - HTTP testing library
 
 ## Author
 
@@ -202,5 +125,3 @@ The video demonstrates:
 
 - Server startup
 - All route functionalities
-- Test execution showing passed test cases
-- Both normal and edge case scenarios

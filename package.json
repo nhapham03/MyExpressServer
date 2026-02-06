@@ -1,0 +1,26 @@
+{
+  "name": "expressserver",
+  "version": "1.0.0",
+  "description": "This is my Express Server",
+  "keywords": [
+    "Express"
+  ],
+  "homepage": "https://github.com/nhapham03/MyExpressServer#readme",
+  "bugs": {
+    "url": "https://github.com/nhapham03/MyExpressServer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhapham03/MyExpressServer.git"
+  },
+  "license": "ISC",
+  "author": "Nha",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

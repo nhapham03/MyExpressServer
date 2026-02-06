@@ -10,7 +10,6 @@ A simple yet comprehensive Express.js web server demonstrating various routing t
 - ✅ Dynamic route parameters (`/user/:username`)
 - ✅ Query string handling (`/get`)
 - ✅ 404 error handling
-- ✅ Comprehensive test suite with Jest and Supertest
 
 ## Prerequisites
 
